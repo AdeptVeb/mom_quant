@@ -147,7 +147,16 @@
             output:
                 food: [20, 50, 35]
                 lettuce_seed: [0, 1, 0.1]
-                soil: [0, 1, 0.2]
+                soil: [0, 1, 0.2] 
+                
+        plant_lettuce:
+            display_name: Blend Lettuce into Food
+            building: greenhouse
+            input:
+                lettuce: 3
+            output:
+                food: [20, 50, 35]
+
         plant_carrots:
             display_name: Plant Carrots
             building: greenhouse
